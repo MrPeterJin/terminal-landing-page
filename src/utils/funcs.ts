@@ -144,9 +144,9 @@ export const argTab = (
   else if (_.startsWith(inputVal, "projects go ")) {
     [
       "1.Peter Gam's Blog",
-      "2.Haru Fashion",
-      "3.Haru API",
-      "4.AstroPaper Blog Theme",
+      "2.ResearchGPT",
+      "3.Road to Fullstack",
+      "4.LPPN",
     ].forEach(t => {
       hintsCmds = [...hintsCmds, t];
     });

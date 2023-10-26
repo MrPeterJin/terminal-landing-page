@@ -146,6 +146,14 @@ describe("Terminal Component", () => {
       );
     });
 
+    it("should redirect to academic website when user type 'academic' cmd", async () => {
+      await user.type(terminalInput, "academic{enter}");
+      expect(window.open).toHaveBeenCalled();
+      expect(screen.getByTestId("latest-output").firstChild?.textContent).toBe(
+        ""
+      );
+    });
+
     it("should open mail app when user type 'email' cmd", async () => {
       await user.type(terminalInput, "email{enter}");
       expect(window.open).toHaveBeenCalled();
