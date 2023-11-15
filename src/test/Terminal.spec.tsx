@@ -154,6 +154,14 @@ describe("Terminal Component", () => {
       );
     });
 
+    it("should redirect to assistant website when user type 'assistant' cmd", async () => {
+      await user.type(terminalInput, "assistant{enter}");
+      expect(window.open).toHaveBeenCalled();
+      expect(screen.getByTestId("latest-output").firstChild?.textContent).toBe(
+        ""
+      );
+    });
+
     it("should open mail app when user type 'email' cmd", async () => {
       await user.type(terminalInput, "email{enter}");
       expect(window.open).toHaveBeenCalled();
