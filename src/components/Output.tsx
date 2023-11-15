@@ -6,6 +6,7 @@ import Email from "./commands/Email";
 import GeneralOutput from "./commands/GeneralOutput";
 import Blog from "./commands/Blog";
 import Academic from "./commands/Academic";
+import Assistant from "./commands/Assistant";
 import Help from "./commands/Help";
 import Welcome from "./commands/Welcome";
 import History from "./commands/History";
@@ -41,6 +42,7 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
           education: <Education />,
           email: <Email />,
           academic: <Academic />,
+          assistant: <Assistant />,
           blog: <Blog />,
           help: <Help />,
           history: <History />,
