@@ -55,7 +55,15 @@ const Welcome: React.FC = () => {
           `}
           </PreNameMobile>
         </PreWrapper>
-        <div>Welcome to Peter Kam's terminal-style homepage and feel free to discover by typing corresponding commands.</div>
+        <div>
+          Welcome to Peter Kam's terminal-style homepage!
+          </div>
+        <div>
+          Feel free to discover by typing corresponding commands.
+          </div>
+        <div>
+          For a list of available commands, type `<Cmd>help</Cmd>`.
+        </div>
         <Seperator>----</Seperator>
         <div>
           This project's source code can be found in this project's{" "}
@@ -65,9 +73,6 @@ const Welcome: React.FC = () => {
           .
         </div>
         <Seperator>----</Seperator>
-        <div>
-          For a list of available commands, type `<Cmd>help</Cmd>`.
-        </div>
       </div>
       <div className="illu-section">
         <PreImg>
