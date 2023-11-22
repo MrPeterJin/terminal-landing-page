@@ -54,10 +54,10 @@ describe("Terminal Component", () => {
       );
     });
 
-    it("should return '/home/petergam' when user type 'pwd' cmd", async () => {
+    it("should return '/home/peterkam' when user type 'pwd' cmd", async () => {
       await user.type(terminalInput, "pwd{enter}");
       expect(screen.getByTestId("latest-output").firstChild?.textContent).toBe(
-        "/home/petergam"
+        "/home/peterkam"
       );
     });
 

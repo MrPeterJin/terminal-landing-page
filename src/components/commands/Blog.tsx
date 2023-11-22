@@ -10,7 +10,7 @@ const Blog: React.FC = () => {
 
   /* ===== check current command makes redirect ===== */
   if (rerender && currentCommand[0] === "blog") {
-    window.open("https://blog.petergam.top/", "_blank");
+    window.open("https://blog.peterkam.top/", "_blank");
   }
 
   return <span></span>;

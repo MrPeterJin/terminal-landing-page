@@ -10,7 +10,7 @@ const Academic: React.FC = () => {
 
   /* ===== check current command makes redirect ===== */
   if (rerender && currentCommand[0] === "academic") {
-    window.open("https://academic.petergam.top/", "_blank");
+    window.open("https://academic.peterkam.top/", "_blank");
   }
 
   return <span></span>;

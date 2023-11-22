@@ -143,7 +143,7 @@ export const argTab = (
   // 8) if input is 'projects go '
   else if (_.startsWith(inputVal, "projects go ")) {
     [
-      "1.Peter Gam's Blog",
+      "1.Peter Kam's Blog",
       "2.ResearchGPT",
       "3.Road to Fullstack",
       "4.LPPN",

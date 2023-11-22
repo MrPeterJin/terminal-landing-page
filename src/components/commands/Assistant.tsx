@@ -10,7 +10,7 @@ const Assistant: React.FC = () => {
 
   /* ===== check current command makes redirect ===== */
   if (rerender && currentCommand[0] === "assistant") {
-    window.open("https://assistant.petergam.top/", "_blank");
+    window.open("https://assistant.peterkam.top/", "_blank");
   }
 
   return <span></span>;
