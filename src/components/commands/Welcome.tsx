@@ -55,7 +55,7 @@ const Welcome: React.FC = () => {
           `}
           </PreNameMobile>
         </PreWrapper>
-        <div>Welcome to Peter Kam's terminal-style homepage.</div>
+        <div>Welcome to Peter Kam's terminal-style homepage and feel free to discover by typing corresponding commands.</div>
         <Seperator>----</Seperator>
         <div>
           This project's source code can be found in this project's{" "}
