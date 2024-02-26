@@ -1,6 +1,6 @@
-# Terminal Landing Page by Peter Gam
+# Terminal Landing Page by Peter Kam
 
-This landing page is maintained by Peter Gam. It is a modification based on several other projects. 
+This landing page is maintained by Peter Kam. It is a modification based on several other projects. 
 
 ## Features
 
