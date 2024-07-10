@@ -56,9 +56,9 @@ const Projects: React.FC = () => {
 const projects = [
   {
     id: 1,
-    title: "Peter Gam's Blog",
+    title: "Peter Kam's Blog",
     desc: "My personal blog where I can write down my thoughts and experiences.",
-    url: "https://www.petergam.top/",
+    url: "https://blog.peterkam.top/",
   },
   {
     id: 2,

@@ -77,8 +77,8 @@ const Welcome: React.FC = () => {
       <div className="illu-section">
         <PreImg>
           {`
-                  ,##,,eew,
-                ,##############C
+                      ,##,,eew,
+                  ,##############C
                 a###############@##
                  7####^\`^"7W7^"@####
                  @#@b\`         ^@#@^
