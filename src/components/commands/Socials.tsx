@@ -58,17 +58,17 @@ const socials = [
   {
     id: 2,
     title: "LinkedIn",
-    url: "https://www.linkedin.com/in/cheng-jin-16b1361b6/",
+    url: "https://www.linkedin.com/in/cjinag/",
     tab: 3,
   },
+  // {
+  //   id: 3,
+  //   title: "Twitter",
+  //   url: "https://twitter.com/ChengJin_HKUST",
+  //   tab: 1,
+  // },
   {
     id: 3,
-    title: "Twitter",
-    url: "https://twitter.com/ChengJin_HKUST",
-    tab: 1,
-  },
-  {
-    id: 4,
     title: "Instagram",
     url: "https://www.instagram.com/petergamsing/",
     tab: 0,
