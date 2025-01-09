@@ -8,6 +8,7 @@ import Blog from "./commands/Blog";
 import Academic from "./commands/Academic";
 import Assistant from "./commands/Assistant";
 import Help from "./commands/Help";
+import Search from "./commands/Search";
 import Welcome from "./commands/Welcome";
 import History from "./commands/History";
 import Projects from "./commands/Projects";
@@ -37,18 +38,19 @@ const Output: React.FC<Props> = ({ index, cmd }) => {
       {
         {
           about: <About />,
+          academic: <Academic />,
+          assistant: <Assistant />,
+          blog: <Blog />,
           clear: <Clear />,
           echo: <Echo />,
           education: <Education />,
           email: <Email />,
-          academic: <Academic />,
-          assistant: <Assistant />,
-          blog: <Blog />,
           help: <Help />,
           history: <History />,
           projects: <Projects />,
-          pwd: <GeneralOutput>/home/satnaing</GeneralOutput>,
+          pwd: <GeneralOutput>/home/peterkam</GeneralOutput>,
           socials: <Socials />,
+          search: <Search />,
           themes: <Themes />,
           welcome: <Welcome />,
           whoami: <GeneralOutput>visitor</GeneralOutput>,
