@@ -28,13 +28,13 @@ type Command = {
 
 export const commands: Command = [
   { cmd: "about", desc: "about Peter Kam", tab: 8 },
+  { cmd: "blog", desc: "go to my blog", tab: 9 },
+  { cmd: "academic", desc: "go to my academic homepage", tab: 5 },
+  { cmd: "assistant", desc: "go to my personal AI assistant page", tab: 4 },
   { cmd: "clear", desc: "clear the terminal", tab: 8 },
   { cmd: "echo", desc: "print out anything", tab: 9 },
   { cmd: "education", desc: "my education background", tab: 4 },
   { cmd: "email", desc: "send an email to me", tab: 8 },
-  { cmd: "academic", desc: "go to my academic homepage", tab: 5 },
-  { cmd: "assistant", desc: "go to my personal AI assistant page", tab: 4 },
-  { cmd: "blog", desc: "go to my blog", tab: 9 },
   { cmd: "help", desc: "check available commands", tab: 9 },
   { cmd: "history", desc: "view command history", tab: 6 },
   { cmd: "projects", desc: "view projects that I've coded", tab: 5 },
