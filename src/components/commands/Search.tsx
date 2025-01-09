@@ -10,7 +10,7 @@ const Search: React.FC = () => {
 
   /* ===== check current command makes redirect ===== */
   if (rerender && currentCommand[0] === "search") {
-    window.open("https://search.petergam.top/", "_blank");
+    window.open("https://search.peterkam.top/", "_blank");
   }
 
   return <span></span>;
